@@ -1,0 +1,33 @@
+// Header 
+
+header {
+    height: 100vh;
+    background-image: url(../assets/headerImage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        text-align: center;
+        background-color: rgb(41, 26, 16, 0.8);
+        padding: 4% 4%;
+        border-radius: 0.5rem;
+
+        h1 {
+            color: #fef9ef;
+        }
+
+        button {
+            
+            color: #fef9ef;
+            background-color: #775430;
+            padding: 2% 3%;
+            border-radius: 0.5rem;
+            border: 0;
+        }
+    }
+    
+}

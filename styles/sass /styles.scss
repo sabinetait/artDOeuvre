@@ -1,44 +1,15 @@
-@import "normalize";
+@import "normalize"; 
 
 body {
     margin: 0;
     padding: 0;
 }
 
-// Header 
+@import "header";
 
-header {
-    height: 100vh;
-    background-image: url(../assets/headerImage.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@import "main";
 
-    div {
-        text-align: center;
-        background-color: rgb(41, 26, 16, 0.8);
-        padding: 4% 4%;
-        border-radius: 0.5rem;
-
-        h1 {
-            color: #fef9ef;
-        }
-
-        button {
-            
-            color: #fef9ef;
-            background-color: #775430;
-            padding: 2% 3%;
-            border-radius: 0.5rem;
-            border: 0;
-        }
-    }
-    
-
-}
+@import "footer";
 
 // Typography
 
@@ -47,14 +18,27 @@ html {
 }
 
 h1 {
-    font-family: 'Unica One', cursive;
-    text-transform: uppercase;
     font-size: 5.1rem;
     line-height: 3rem;
 
     span {
         font-size: 3rem;
     }
+}
+
+h1,
+h2 {
+    font-family: 'Unica One', cursive;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h2,
+p {
+    margin: 0;
 }
 
 p,
