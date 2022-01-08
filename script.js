@@ -10,7 +10,7 @@
         };
 
         // API key 
-        artApp.key = key;
+        artApp.key = `E7N3bYtxjyQCb5Yk4JTxaLKgpiIQ0MwPlyTsY3vAoZIU0uVTJxBdFtstmgDsGTwM`;
 
         // Empty to array to pass jsonData
         artApp.array = [];
