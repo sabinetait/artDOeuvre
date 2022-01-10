@@ -18,7 +18,7 @@
 
         // Fetch and parse API data
         artApp.getBite = () => {
-            const url = new URL('http://api.thewalters.org/v1/objects?');
+            const url = new URL('https://api.thewalters.org/v1/objects?');
 
             url.search = new URLSearchParams ({
                 apikey: artApp.key,
