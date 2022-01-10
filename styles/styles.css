@@ -290,6 +290,7 @@ header div {
   background-color: rgba(41, 26, 16, 0.8);
   padding: 4% 4%;
   border-radius: 0.5rem;
+  max-width: 600px;
 }
 header div h1 {
   color: #fef9ef;
@@ -297,7 +298,7 @@ header div h1 {
 header div a {
   text-decoration: none;
   color: #fef9ef;
-  background-color: #775430;
+  background-color: #785430;
   padding: 2% 3%;
   border-radius: 0.5rem;
   border: 0;
@@ -417,4 +418,59 @@ footer p a {
   text-decoration: none;
   font-size: 16px;
   color: #fef9ef;
+}
+footer p a:hover,
+footer p a:focus {
+  color: #d6cdbc;
+}
+
+@media (max-width: 900px) {
+  main div button {
+    font-size: 0.9rem;
+    width: 40%;
+  }
+}
+@media (max-width: 600px) {
+  header div {
+    padding-bottom: 1.5rem;
+  }
+  header div h1 {
+    font-size: 4rem;
+    margin-bottom: 1.4rem;
+  }
+  header div h1 span {
+    font-size: 2.35rem;
+  }
+
+  main div button {
+    font-size: 0.9rem;
+    width: 55%;
+  }
+
+  .textContainer h2 {
+    font-size: 1rem;
+  }
+  .textContainer p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 410px) {
+  header div {
+    padding-bottom: 1rem;
+  }
+  header div h1 {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+  header div h1 span {
+    font-size: 1.4rem;
+  }
+  header div .imgButton {
+    font-size: 0.85rem;
+  }
+
+  main div button {
+    font-size: 0.9rem;
+    width: 70%;
+  }
 }

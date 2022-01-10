@@ -15,6 +15,7 @@ header {
         background-color: rgb(41, 26, 16, 0.8);
         padding: 4% 4%;
         border-radius: 0.5rem;
+        max-width: 600px;
 
         h1 {
             color: rgb(254,249,239);
@@ -23,7 +24,7 @@ header {
         a {
             text-decoration: none;
             color: rgb(254,249,239);
-            background-color: #775430;
+            background-color: rgb(120, 84, 48);
             padding: 2% 3%;
             border-radius: 0.5rem;
             border: 0;
@@ -32,7 +33,7 @@ header {
 
         a:hover, 
         a:focus {
-            background-color: #5f4020;
+            background-color: rgb(95, 64, 32);
         }
 
     }

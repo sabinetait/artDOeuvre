@@ -1,20 +1,4 @@
-// General Styles
-
 @import "normalize"; 
-
-html {
-    font-size: 125%;
-    scroll-behavior: smooth;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.wrapper {
-    width: 80%;
-}
 
 @import "typography";
 
@@ -23,3 +7,5 @@ body {
 @import "main";
 
 @import "footer";
+
+@import "mediaQueries";

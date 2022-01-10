@@ -1,0 +1,82 @@
+// Media queries for small viewport size
+
+@media(max-width: 900px) {
+    main {
+        div {
+            button {
+                font-size: 0.9rem;
+                width: 40%;
+            }
+        }
+    }
+}
+
+@media(max-width: 600px) {
+
+    header {
+
+        div {
+            padding-bottom: 1.5rem;
+
+            h1 {
+                font-size: 4rem;
+                margin-bottom: 1.4rem;
+        
+                span {
+                    font-size: 2.35rem;
+                }
+            }
+        }
+    }
+
+    main {
+        div {
+            button {
+                font-size: 0.9rem;
+                width: 55%;
+            }
+        }
+    }
+
+    .textContainer {
+        h2 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
+}
+
+@media(max-width: 410px) {
+
+    header {
+        div {
+            padding-bottom: 1rem;
+
+            h1 {
+                font-size: 2.5rem;
+                line-height: 2rem;
+        
+                span {
+                    font-size: 1.4rem;
+                }
+            }
+        
+            .imgButton {
+                font-size: 0.85rem;
+            }
+        }
+    }
+
+    main {
+        div {
+            button {
+                font-size: 0.9rem;
+                width: 70%;
+            }
+        }
+    }
+}
