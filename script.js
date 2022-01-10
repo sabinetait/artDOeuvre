@@ -28,7 +28,9 @@
 
             fetch(url)
             .then((results) => {
-                return results.json();
+                if (results.ok === true) {
+                    return results.json();
+                }
             })
             .then((jsonData) => {
 
@@ -54,18 +56,13 @@
 
                 // append random image and corresponding alt text to page
                 imgContainer.innerHTML = `
-                    <img src=${theImg.PrimaryImage.Large} alt="${theImg.Medium}">
+                    <img src=${theImg.PrimaryImage.Raw} alt="${theImg.Medium}">
                 `;
                 // append random image title and artist information to page 
                 txtContainer.innerHTML = `
                     <h2>${theImg.Title}</h2>
                     <p>${theImg.Creator}</p>
                 `;
-
-                function disableButton(getFirstImgBtn) {
-                    getFirstImgBtn.disabled = true;
-                    console.log(disableButton);
-                }
 
              // Disable header button click after one click    
             }, { once: true });
@@ -75,7 +72,7 @@
             getNewImgBtn.addEventListener('click', () => {
                 const theImg = artApp.getRandomImage();
                 imgContainer.innerHTML = `
-                    <img src=${theImg.PrimaryImage.Large} alt="${theImg.Medium}">
+                    <img src=${theImg.PrimaryImage.Raw} alt="${theImg.Medium}">
                 `;
                 txtContainer.innerHTML = `
                     <h2>${theImg.Title}</h2>

@@ -231,6 +231,10 @@ body {
   padding: 0;
 }
 
+.wrapper {
+  width: 80%;
+}
+
 header {
   height: 100vh;
   background-image: url(../assets/headerImage.jpg);
@@ -338,7 +342,7 @@ main figure .imageContainer {
 }
 main figure .imageContainer img {
   height: 100%;
-  width: auto;
+  max-width: 100%;
 }
 main figure .textContainer {
   height: 40%;
