@@ -1,0 +1,476 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  font-size: 125%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 80%;
+}
+
+h1 {
+  font-size: 5.1rem;
+  line-height: 3rem;
+}
+h1 span {
+  font-size: 3rem;
+}
+
+h1,
+h2 {
+  font-family: "Unica One", cursive;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+p,
+button,
+a {
+  font-family: "Crimson Pro", serif;
+}
+
+header {
+  height: 100vh;
+  background-image: url(../assets/headerImage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header div {
+  text-align: center;
+  background-color: rgba(41, 26, 16, 0.8);
+  padding: 4% 4%;
+  border-radius: 0.5rem;
+  max-width: 600px;
+}
+header div h1 {
+  color: #fef9ef;
+}
+header div a {
+  text-decoration: none;
+  color: #fef9ef;
+  background-color: #785430;
+  padding: 2% 3%;
+  border-radius: 0.5rem;
+  border: 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+header div a:hover,
+header div a:focus {
+  background-color: #5f4020;
+}
+
+main {
+  height: 100vh;
+  background-image: url(../assets/backgroungOne.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main div {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+  width: 60vw;
+}
+main div button {
+  color: #fef9ef;
+  background-color: #3e1a06;
+  padding: 2% 3%;
+  border-radius: 0.5rem;
+  border: 0;
+  margin-top: 5%;
+  width: 30%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+main div button:hover,
+main div button:focus {
+  background-color: #291a10;
+}
+main figure {
+  background-color: #3e1a06;
+  height: 75%;
+  width: auto;
+  padding: 5% 3%;
+  border-radius: 0.5rem;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+          box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+main figure .imageContainer {
+  height: 60%;
+  width: 100%;
+}
+main figure .imageContainer img {
+  height: 100%;
+  max-width: 100%;
+}
+main figure .textContainer {
+  height: 40%;
+  width: 75%;
+  background-color: rgba(254, 249, 239, 0.4);
+  border-radius: 0.2rem;
+  padding: 1% 2%;
+  margin-top: 3%;
+}
+main figure .textContainer h2,
+main figure .textContainer p {
+  margin: 1% 0;
+  color: #291a10;
+}
+
+footer {
+  background-color: #291a10;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  padding: 0.7% 0;
+  font-size: 16px;
+  color: #fef9ef;
+}
+footer p a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fef9ef;
+}
+footer p a:hover,
+footer p a:focus {
+  color: #d6cdbc;
+}
+
+@media (max-width: 900px) {
+  main div button {
+    font-size: 0.9rem;
+    width: 40%;
+  }
+}
+@media (max-width: 600px) {
+  header div {
+    padding-bottom: 1.5rem;
+  }
+  header div h1 {
+    font-size: 4rem;
+    margin-bottom: 1.4rem;
+  }
+  header div h1 span {
+    font-size: 2.35rem;
+  }
+
+  main div button {
+    font-size: 0.9rem;
+    width: 55%;
+  }
+
+  .textContainer h2 {
+    font-size: 1rem;
+  }
+  .textContainer p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 410px) {
+  header div {
+    padding-bottom: 1rem;
+  }
+  header div h1 {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+  header div h1 span {
+    font-size: 1.4rem;
+  }
+  header div .imgButton {
+    font-size: 0.85rem;
+  }
+
+  main div button {
+    font-size: 0.9rem;
+    width: 70%;
+  }
+}

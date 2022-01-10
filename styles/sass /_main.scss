@@ -1,0 +1,79 @@
+// Main
+
+main {
+    height: 100vh;
+    background-image: url(../assets/backgroungOne.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        width: 60vw;
+
+        button {
+            color: rgb(254, 249, 239);
+            background-color:rgb(62,26,6);
+            padding: 2% 3%;
+            border-radius: 0.5rem;
+            border: 0;
+            margin-top: 5%;
+            width: 30%;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        }
+
+        button:hover,
+        button:focus {
+            background-color: rgb(41, 26, 16);
+        }
+    }
+
+    figure {
+        background-color:rgb(62,26,6);
+        height: 75%;
+        width: auto;
+        padding: 5% 3%;
+        border-radius: 0.5rem;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+        .imageContainer {
+            height: 60%;
+            width: 100%;
+
+            img {
+                height: 100%;
+                max-width: 100%;
+            }
+        }
+
+        .textContainer {
+            height: 40%;
+            width: 75%;
+            background-color: rgb(254,249,239, 0.4);
+            border-radius: 0.2rem;
+            padding: 1% 2%;
+            margin-top: 3%;
+
+            h2, 
+            p {
+                margin: 1% 0;
+                color: rgb(41, 26, 16);
+            }
+            
+        }
+    }
+}

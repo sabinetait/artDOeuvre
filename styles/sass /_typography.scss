@@ -1,0 +1,32 @@
+// Typography
+
+h1 {
+    font-size: 5.1rem;
+    line-height: 3rem;
+
+    span {
+        font-size: 3rem;
+    }
+}
+
+h1,
+h2 {
+    font-family: 'Unica One', cursive;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h2,
+p {
+    margin: 0;
+}
+
+p,
+button, 
+a {
+    font-family: 'Crimson Pro', serif;
+}
+
