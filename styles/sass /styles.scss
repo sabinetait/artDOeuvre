@@ -1,4 +1,11 @@
+// General Styles
+
 @import "normalize"; 
+
+html {
+    font-size: 125%;
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -9,43 +16,10 @@ body {
     width: 80%;
 }
 
+@import "typography";
+
 @import "header";
 
 @import "main";
 
 @import "footer";
-
-// Typography
-
-html {
-    font-size: 125%;
-}
-
-h1 {
-    font-size: 5.1rem;
-    line-height: 3rem;
-
-    span {
-        font-size: 3rem;
-    }
-}
-
-h1,
-h2 {
-    font-family: 'Unica One', cursive;
-    text-transform: uppercase;
-}
-
-h2 {
-    font-size: 1.2rem;
-}
-
-h2,
-p {
-    margin: 0;
-}
-
-p,
-button {
-    font-family: 'Crimson Pro', serif;
-}

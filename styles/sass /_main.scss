@@ -21,7 +21,7 @@ main {
 
         button {
             color: #fef9ef;
-            background-color: #3E1A06;
+            background-color:rgb(62,26,6);
             padding: 2% 3%;
             border-radius: 0.5rem;
             border: 0;
@@ -29,10 +29,15 @@ main {
             width: 30%;
             box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         }
+
+        button:hover,
+        button:focus {
+            background-color: rgb(41, 26, 16);
+        }
     }
 
     figure {
-        background-color: #3E1A06;
+        background-color:rgb(62,26,6);
         height: 75%;
         width: auto;
         padding: 5% 3%;

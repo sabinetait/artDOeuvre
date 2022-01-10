@@ -226,6 +226,11 @@ html {
   overflow: hidden;
 }
 
+html {
+  font-size: 125%;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -233,6 +238,35 @@ body {
 
 .wrapper {
   width: 80%;
+}
+
+h1 {
+  font-size: 5.1rem;
+  line-height: 3rem;
+}
+h1 span {
+  font-size: 3rem;
+}
+
+h1,
+h2 {
+  font-family: "Unica One", cursive;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+p,
+button,
+a {
+  font-family: "Crimson Pro", serif;
 }
 
 header {
@@ -260,12 +294,19 @@ header div {
 header div h1 {
   color: #fef9ef;
 }
-header div button {
+header div a {
+  text-decoration: none;
   color: #fef9ef;
   background-color: #775430;
   padding: 2% 3%;
   border-radius: 0.5rem;
   border: 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+header div a:hover,
+header div a:focus {
+  background-color: #5f4020;
 }
 
 main {
@@ -304,7 +345,7 @@ main div {
 }
 main div button {
   color: #fef9ef;
-  background-color: #3E1A06;
+  background-color: #3e1a06;
   padding: 2% 3%;
   border-radius: 0.5rem;
   border: 0;
@@ -313,8 +354,12 @@ main div button {
   -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
           box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+main div button:hover,
+main div button:focus {
+  background-color: #291a10;
+}
 main figure {
-  background-color: #3E1A06;
+  background-color: #3e1a06;
   height: 75%;
   width: auto;
   padding: 5% 3%;
@@ -368,35 +413,8 @@ footer p {
   font-size: 16px;
   color: #fef9ef;
 }
-
-html {
-  font-size: 125%;
-}
-
-h1 {
-  font-size: 5.1rem;
-  line-height: 3rem;
-}
-h1 span {
-  font-size: 3rem;
-}
-
-h1,
-h2 {
-  font-family: "Unica One", cursive;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-h2,
-p {
-  margin: 0;
-}
-
-p,
-button {
-  font-family: "Crimson Pro", serif;
+footer p a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fef9ef;
 }

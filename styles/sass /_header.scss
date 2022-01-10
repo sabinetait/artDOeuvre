@@ -17,17 +17,24 @@ header {
         border-radius: 0.5rem;
 
         h1 {
-            color: #fef9ef;
+            color: rgb(254,249,239);
         }
 
-        button {
-            
-            color: #fef9ef;
+        a {
+            text-decoration: none;
+            color: rgb(254,249,239);
             background-color: #775430;
             padding: 2% 3%;
             border-radius: 0.5rem;
             border: 0;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         }
+
+        a:hover, 
+        a:focus {
+            background-color: #5f4020;
+        }
+
     }
     
 }
