@@ -271,7 +271,7 @@ a {
 
 header {
   height: 100vh;
-  background-image: url(../assets/headerImage.jpg);
+  background-image: url(../assets/headerImage.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -312,7 +312,7 @@ header div a:focus {
 
 main {
   height: 100vh;
-  background-image: url(../assets/backgroungOne.jpg);
+  background-image: url(../assets/backgroungOne.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
