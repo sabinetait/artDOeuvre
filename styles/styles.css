@@ -271,7 +271,7 @@ a {
 
 header {
   height: 100vh;
-  background-image: url(../assets/headerImage.jpg);
+  background-image: url(../assets/headerImage.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -293,12 +293,12 @@ header div {
   max-width: 600px;
 }
 header div h1 {
-  color: #fef9ef;
+  color: rgb(254, 249, 239);
 }
 header div a {
   text-decoration: none;
-  color: #fef9ef;
-  background-color: #785430;
+  color: rgb(254, 249, 239);
+  background-color: rgb(120, 84, 48);
   padding: 2% 3%;
   border-radius: 0.5rem;
   border: 0;
@@ -307,12 +307,12 @@ header div a {
 }
 header div a:hover,
 header div a:focus {
-  background-color: #5f4020;
+  background-color: rgb(95, 64, 32);
 }
 
 main {
   height: 100vh;
-  background-image: url(../assets/backgroungOne.jpg);
+  background-image: url(../assets/backgroungOne.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -345,8 +345,8 @@ main div {
   width: 60vw;
 }
 main div button {
-  color: #fef9ef;
-  background-color: #3e1a06;
+  color: rgb(254, 249, 239);
+  background-color: rgb(62, 26, 6);
   padding: 2% 3%;
   border-radius: 0.5rem;
   border: 0;
@@ -357,11 +357,11 @@ main div button {
 }
 main div button:hover,
 main div button:focus {
-  background-color: #291a10;
+  background-color: rgb(41, 26, 16);
 }
 main figure {
-  background-color: #3e1a06;
-  height: 75%;
+  background-color: rgb(62, 26, 6);
+  height: 100%;
   width: auto;
   padding: 5% 3%;
   border-radius: 0.5rem;
@@ -391,37 +391,37 @@ main figure .imageContainer img {
   max-width: 100%;
 }
 main figure .textContainer {
-  height: 40%;
+  height: auto;
   width: 75%;
   background-color: rgba(254, 249, 239, 0.4);
   border-radius: 0.2rem;
-  padding: 1% 2%;
-  margin-top: 3%;
+  padding: 3% 2%;
+  margin-top: 10%;
 }
 main figure .textContainer h2,
 main figure .textContainer p {
-  margin: 1% 0;
-  color: #291a10;
+  margin: 1% 5%;
+  color: rgb(41, 26, 16);
 }
 
 footer {
-  background-color: #291a10;
+  background-color: rgb(41, 26, 16);
   text-align: center;
 }
 footer p {
   margin: 0;
   padding: 0.7% 0;
   font-size: 16px;
-  color: #fef9ef;
+  color: rgb(254, 249, 239);
 }
 footer p a {
   text-decoration: none;
   font-size: 16px;
-  color: #fef9ef;
+  color: rgb(254, 249, 239);
 }
 footer p a:hover,
 footer p a:focus {
-  color: #d6cdbc;
+  color: rgb(214, 205, 188);
 }
 
 @media (max-width: 900px) {
